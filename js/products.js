@@ -80,7 +80,7 @@ const PRODUCTS = [
   imgs: ['cat1', 'cat2'],
   note: 'Spacious large-size cat cage with a strong metal frame, secure mesh enclosure and easy-access door.',
   extraNote: 'Designed to provide cats with a comfortable and secure space. Spacious interior with durable construction and easy maintenance.'
-}
+},
 
 {
   id: 'hitech-dog-large',
@@ -96,7 +96,7 @@ const PRODUCTS = [
   imgs: ['dog1', 'dog2', 'dog3'],
   note: 'Premium raised dog cage with a stylish tiled-style roof, strong metal frame and durable construction.',
   extraNote: 'Designed for comfortable outdoor use. Features a protective roof, secure enclosure, easy-access entrance and elevated flooring.'
-}
+},
 ];
 
 const CATS = [
