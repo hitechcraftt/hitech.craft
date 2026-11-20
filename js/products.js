@@ -79,7 +79,7 @@ const PRODUCTS = [
 
 const CATS = [
   ['all','All'], ['small','Small'], ['medium','Medium'], ['large','Large'],
-  ['double','Double Compartment'], ['birds','Hen & Duck'], ['hitech','Hi-Tech'], ['drainage','Drainage']
+  ['double','Double Compartment'], ['birds','Hen & Duck'], ['hitech','Hi-Tech'], ['drainage','Drainage'], ['cat','cat cage']
 ];
 
 const inr = n => '₹' + Number(n).toLocaleString('en-IN');
