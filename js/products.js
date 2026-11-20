@@ -65,38 +65,16 @@ const PRODUCTS = [
     note:'Tall cage with a blue sheet gable roof, green grid flooring and a side food door.' },
   { id:'hd-dbl', name:'Hen & Duck Double Cage', price:17499, size:'Hen & Duck', cat:['birds','double'],
     dims:['6 ft high','4 ft long','2 ft wide','Double compartment'], imgs:['c32','c33','c34'],
-    note:'Double compartment cage for hens and ducks, with a sheet roof, a water bucket feeder and a pull-out tray for easy cleaning.' }
-  {
-  id: 'cat-large',
-  name: 'Cat Cage',
-  price: 16999,
-  size: 'Large',
-  cat: ['large', 'cat'],
-  dims: [
-    '5 ft length',
-    '4 ft width',
-    '5 ft height'
-  ],
-  imgs: ['cat1', 'cat2'],
-  note: 'Spacious large-size cat cage with a strong metal frame, secure mesh enclosure and easy-access door.',
-  extraNote: 'Designed to provide cats with a comfortable and secure space. Spacious interior with durable construction and easy maintenance.'
-},
+    note:'Double compartment cage for hens and ducks, with a sheet roof, a water bucket feeder and a pull-out tray for easy cleaning.' },
 
-{
-  id: 'hitech-dog-large',
-  name: 'Hi-Tech Dog Cage',
-  price: 22999,
-  size: 'Large',
-  cat: ['large', 'hitech', 'dog'],
-  dims: [
-    '4 ft length',
-    '3 ft width',
-    '5 ft height'
-  ],
-  imgs: ['dog1', 'dog2', 'dog3'],
-  note: 'Premium raised dog cage with a stylish tiled-style roof, strong metal frame and durable construction.',
-  extraNote: 'Designed for comfortable outdoor use. Features a protective roof, secure enclosure, easy-access entrance and elevated flooring.'
-},
+  { id:'cat-5x4', name:'Large Cat Cage', price:16999, size:'Large', cat:['large','cat'],
+    dims:['5 ft long','4 ft wide','5 ft high'], imgs:['c38','c39'],
+    note:'Full-mesh cat cage with a raised resting shelf, green grid flooring, a latch door and a side food bowl door. Mesh top and side panel keep cats safe and give them room to climb.' },
+
+  { id:'h-4x3', name:'Hi-Tech Dog Cage', price:22999, size:'Large', cat:['large','hitech'],
+    dims:['4 ft long','3 ft wide','5 ft high'], imgs:['c35','c36','c37'],
+    note:'Raised Hi-Tech build with a tile-style roof, strong bar walls, green grid flooring, an inbuilt food door, an access ramp and a tray underneath for easy cleaning.' },
+  
 ];
 
 const CATS = [
