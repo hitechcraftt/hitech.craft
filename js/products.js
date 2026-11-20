@@ -2,7 +2,7 @@
 const CONTACT = {
   phone: '919061959693',
   phoneShow: '+91 90619 59693',
-  email: 'hitechcraft.tvm@gmail.com'
+  email: 'hitechcraft.hc@gmail.com'
 };
 
 const PRODUCTS = [
