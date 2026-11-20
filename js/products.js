@@ -66,6 +66,37 @@ const PRODUCTS = [
   { id:'hd-dbl', name:'Hen & Duck Double Cage', price:17499, size:'Hen & Duck', cat:['birds','double'],
     dims:['6 ft high','4 ft long','2 ft wide','Double compartment'], imgs:['c32','c33','c34'],
     note:'Double compartment cage for hens and ducks, with a sheet roof, a water bucket feeder and a pull-out tray for easy cleaning.' }
+  {
+  id: 'cat-large',
+  name: 'Cat Cage',
+  price: 16999,
+  size: 'Large',
+  cat: ['large', 'cat'],
+  dims: [
+    '5 ft length',
+    '4 ft width',
+    '5 ft height'
+  ],
+  imgs: ['cat1', 'cat2'],
+  note: 'Spacious large-size cat cage with a strong metal frame, secure mesh enclosure and easy-access door.',
+  extraNote: 'Designed to provide cats with a comfortable and secure space. Spacious interior with durable construction and easy maintenance.'
+}
+
+{
+  id: 'hitech-dog-large',
+  name: 'Hi-Tech Dog Cage',
+  price: 22999,
+  size: 'Large',
+  cat: ['large', 'hitech', 'dog'],
+  dims: [
+    '4 ft length',
+    '3 ft width',
+    '5 ft height'
+  ],
+  imgs: ['dog1', 'dog2', 'dog3'],
+  note: 'Premium raised dog cage with a stylish tiled-style roof, strong metal frame and durable construction.',
+  extraNote: 'Designed for comfortable outdoor use. Features a protective roof, secure enclosure, easy-access entrance and elevated flooring.'
+}
 ];
 
 const CATS = [
