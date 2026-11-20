@@ -116,7 +116,7 @@
   const card = p => `
     <article class="pcard rv">
       <button class="pimg" data-id="${p.id}" aria-label="View photos of ${p.name}"><img src="${img(p.imgs[0])}" alt="${p.name}" loading="lazy">
-        <span class="ptag"><span>${p.size}</span>${p.cat.includes('hitech') ? '<span>Hi-Tech</span>' : ''}${p.cat.includes('double') && !p.cat.includes('birds') ? '<span>Double</span>' : ''}${p.cat.includes('drainage') ? '<span>Drainage</span>' ${p.cat.includes('cat') ? '<span>Cat</span>' : ''}</span></button>
+        <span class="ptag"><span>${p.size}</span>${p.cat.includes('hitech') ? '<span>Hi-Tech</span>' : ''}${p.cat.includes('double') && !p.cat.includes('birds') ? '<span>Double</span>' : ''}${p.cat.includes('drainage') ? '<span>Drainage</span>' : ''}</span></button>
       <div class="pbody">
         <h3>${p.name}</h3>
         <div class="pdims">${p.dims.slice(0, 3).join(' · ')}</div>
